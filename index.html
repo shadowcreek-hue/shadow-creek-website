@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Shadow Creek High School</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f5f9fc;
+    color: #0b2545;
+  }
+  header {
+    background-color: #0b2545;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  header img {
+    height: 60px;
+    width: 60px;
+  }
+  header h1 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  main {
+    max-width: 900px;
+    margin: 2rem auto 4rem;
+    padding: 0 1rem;
+  }
+  section {
+    margin-bottom: 3rem;
+  }
+  h2 {
+    font-weight: 600;
+    border-bottom: 3px solid #187bcd;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+  }
+  .leadership-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 1.5rem;
+  }
+  .leader-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .leader-photo {
+    background: #187bcd;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    user-select: none;
+  }
+  .leader-name {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+  }
+  .leader-title {
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  .events-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  .events-list li {
+    background: white;
+    margin-bottom: 0.8rem;
+    padding: 1rem 1.2rem;
+    border-left: 5px solid #187bcd;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #0b2545;
+    color: white;
+    font-size: 0.9rem;
+  }
+  @media (max-width: 400px) {
+    header h1 {
+      font-size: 1.4rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="d910c129-4374-43da-86c5-68de6471c0fb.png" alt="Shadow Creek High School Logo" />
+  <h1>Shadow Creek High School</h1>
+</header>
+
+<main>
+  <section>
+    <h2>Executive Leadership Team</h2>
+    <div class="leadership-list">
+      <div class="leader-card">
+        <div class="leader-photo">SD</div>
+        <div class="leader-name">Dr. Sayoncé D. Knowles, Ed.D.</div>
+        <div class="leader-title">Superintendent</div>
+      </div>
+      <div class="leader-card">
+        <div class="leader-photo">AB</div>
+        <div class="leader-name">Dr. Ace Bryant, Ed.D.</div>
+        <div class="leader-title">Deputy Superintendent</div>
+      </div>
+      <div class="leader-card">
+        <div class="leader-photo">JW</div>
+        <div class="leader-name">Dr. Jacori K. Wagner, Ed.D.</div>
+        <div class="leader-title">Associate</div>
+      </div>
+      <div class="leader-card">
+        <div class="leader-photo">KK</div>
+        <div class="leader-name">Dr. Kai’Neil L. Knowles</div>
+        <div class="leader-title">Associate</div>
+      </div>
+      <div class="leader-card">
+        <div class="leader-photo">NJ</div>
+        <div class="leader-name">Nikolas Jackson, Ed.D.</div>
+        <div class="leader-title">Associate</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Upcoming Events</h2>
+    <ul class="events-list">
+      <li><strong>August 25</strong> — First Day of School</li>
+      <li><strong>September 10</strong> — Back to School Night</li>
+      <li><strong>October 5</strong> — Homecoming Game</li>
+      <li><strong>November 15</strong> — Parent-Teacher Conferences</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Shadow Creek High School | Contact: info@shadowcreek.edu
+</footer>
+
+</body>
+</html>
